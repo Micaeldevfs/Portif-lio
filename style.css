@@ -1,0 +1,83 @@
+body{
+    background-color: #102f4e;
+    font-family: 'Exo 2', sans-serif;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.menu_logo{
+    width: 100px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.menu_logo:hover{
+    transform: scale(1.1);      
+}
+
+.menu_lista{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu_lista_item{
+    color: #ff9f00;
+    font-family: 'M PLUS Rounded 1c', sans-serif; 
+    font-size: 30px;   
+    text-decoration: none;
+
+}
+.menu_lista_item:hover{
+    color: #bb4d09;
+    transition: 0.4s;
+}
+
+.menu_curriculo{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    background-color: #ff9f00 ;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+.menu_curriculo:hover{
+    background-color: #bb4d09;
+}
+
+.home{
+    height: 100vh;
+    background-image: url("https://camo.githubusercontent.com/9e5e7795957f65ab8a2f305aaaffc4ccbbdbae2e78c66d0fe37b51c8fa6ce774/68747470733a2f2f692e696d6775722e636f6d2f34585444584f352e676966");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.home_img{
+    max-width: 300px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.home_infos{
+    background-color: #0a0400da;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 0 0 20px 20px;
+    gap: 20px;
+}
+.home_nome{
+    font-size: 55px;
+}
+.home_area{
+    font-size: 50px;
+    color: #ff9f00;
+}
